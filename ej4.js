@@ -16,7 +16,7 @@ fetch("https://swapi.dev/api/planets/")
 
 function cogePersonajes() {
   let seleccion = document.getElementById("planetas").value;
-  
+  parrafo2 =""
   fetch("https://swapi.dev/api/planets/")
     .then(function recogeRespuesta(respuesta) {
       return respuesta.json();
